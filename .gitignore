@@ -12,6 +12,7 @@ ENV/
 # Build and packaging artifacts
 build/
 dist/
+node_modules/
 .eggs/
 *.egg-info/
 pip-wheel-metadata/
