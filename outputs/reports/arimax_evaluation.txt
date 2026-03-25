@@ -1,0 +1,27 @@
+SEMITRACK INDIA - ARIMAX Evaluation Report
+=================================================================
+
+Model:          ARIMAX(1, 1, 0)
+AIC:            16.00
+ARIMA baseline: 21.25
+Delta AIC:      5.25
+Exog vars:      ['dummy_post_2018_inflection', 'dummy_covid_shock_2020', 'dummy_global_chip_shortage_2021', 'dummy_pli_scheme_launch', 'dummy_micron_mou_2023']
+
+Validation (2023+):
+  MAE:   0.1407
+  RMSE:  0.1567
+  MAPE:  12.92%
+
+Rolling backtest summary
+==============================
+Naive last value: mean APE=24.14% | median APE=20.74%
+Naive 3-year mean: mean APE=31.60% | median APE=26.67%
+ARIMA: mean APE=28.39% | median APE=27.02%
+ARIMAX: mean APE=27.08% | median APE=22.24%
+Backtest CSV: C:\Users\Pegasus\Desktop\SemiTrack2\outputs\reports\arimax_backtest.csv
+Model pickle: C:\Users\Pegasus\Desktop\SemiTrack2\outputs\models\arimax_model.pkl
+
+Forecasts (BAU, real 2015 USD Billions):
+  2025: $13.931B [$9.892B - $19.620B]
+  2026: $14.156B [$10.030B - $19.978B]
+  2027: $14.078B [$9.983B - $19.855B]

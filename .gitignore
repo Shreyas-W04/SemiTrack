@@ -47,7 +47,12 @@ gradio_cached_examples/
 *.pid
 
 # Generated outputs
-outputs/
+outputs/*
+!outputs/reports/
+outputs/reports/*
+!outputs/reports/*.csv
+!outputs/reports/*.txt
+!outputs/reports/*.md
 *.pkl
 *.joblib
 

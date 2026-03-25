@@ -1,0 +1,10 @@
+SEMITRACK INDIA - Stationarity Report
+=================================================================
+
+{'test': 'ADF', 'series': 'Real imports (level)', 'statistic': np.float64(2.085618793902653), 'p_value': np.float64(0.9987743813459655), 'stationary': np.False_}
+{'test': 'KPSS', 'series': 'Real imports (level)', 'statistic': np.float64(0.634539796757631), 'p_value': np.float64(0.01949638211294264), 'stationary': np.False_}
+{'test': 'ADF', 'series': 'Log-differenced real imports', 'statistic': np.float64(-5.992321030333662), 'p_value': np.float64(1.7338553467574565e-07), 'stationary': np.True_}
+{'test': 'KPSS', 'series': 'Log-differenced real imports', 'statistic': np.float64(0.20731108249204627), 'p_value': np.float64(0.1), 'stationary': np.True_}
+
+Chow test: F=242.692, p=0.0000, confirmed=True
+Conclusion: use the log series with one difference and include the 2018 break in ARIMAX.

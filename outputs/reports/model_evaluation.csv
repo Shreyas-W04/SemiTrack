@@ -1,0 +1,3 @@
+year,actual_log,forecast_log,actual_real_bn,forecast_real_bn,error_bn,pct_error
+2023,2.5443,2.6847,12.7337,14.6533,-1.9196,-15.07
+2024,2.6809,2.6848,14.5977,14.6548,-0.0571,-0.39

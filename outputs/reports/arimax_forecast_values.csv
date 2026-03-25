@@ -1,0 +1,4 @@
+year,arimax_forecast_bn,ci_lower_bn,ci_upper_bn,order,aic,exog_vars
+2025,13.931190466829392,9.89167320642802,19.62034771801379,"(1, 1, 0)",16.0,"dummy_post_2018_inflection,dummy_covid_shock_2020,dummy_global_chip_shortage_2021,dummy_pli_scheme_launch,dummy_micron_mou_2023"
+2026,14.155701006853924,10.03021636608412,19.97802078059027,"(1, 1, 0)",16.0,"dummy_post_2018_inflection,dummy_covid_shock_2020,dummy_global_chip_shortage_2021,dummy_pli_scheme_launch,dummy_micron_mou_2023"
+2027,14.078493696667481,9.982604977123145,19.854936183623863,"(1, 1, 0)",16.0,"dummy_post_2018_inflection,dummy_covid_shock_2020,dummy_global_chip_shortage_2021,dummy_pli_scheme_launch,dummy_micron_mou_2023"

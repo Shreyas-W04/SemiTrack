@@ -1,0 +1,31 @@
+                                    SARIMAX Results                                    
+=======================================================================================
+Dep. Variable:     real_value_2015usd_billions   No. Observations:                   30
+Model:                          ARIMA(1, 1, 0)   Log Likelihood                  -8.339
+Date:                         Mon, 23 Mar 2026   AIC                             20.679
+Time:                                 01:51:26   BIC                             23.413
+Sample:                                      0   HQIC                            21.535
+                                          - 30                                         
+Covariance Type:                           opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.L1          0.0359      0.174      0.207      0.836      -0.304       0.376
+sigma2         0.1041      0.019      5.343      0.000       0.066       0.142
+===================================================================================
+Ljung-Box (L1) (Q):                   0.42   Jarque-Bera (JB):                 5.07
+Prob(Q):                              0.52   Prob(JB):                         0.08
+Heteroskedasticity (H):               2.71   Skew:                             0.70
+Prob(H) (two-sided):                  0.13   Kurtosis:                         4.50
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+
+Rolling backtest summary
+==============================
+Naive last value: mean APE=24.14% | median APE=20.74%
+Naive 3-year mean: mean APE=31.60% | median APE=26.67%
+ARIMA: mean APE=28.39% | median APE=27.02%
+Backtest CSV: C:\Users\Pegasus\Desktop\SemiTrack2\outputs\reports\arima_backtest.csv
+Model pickle: C:\Users\Pegasus\Desktop\SemiTrack2\outputs\models\arima_model.pkl

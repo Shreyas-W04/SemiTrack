@@ -56,7 +56,8 @@ def main() -> int:
 
     print("\nCharts:  outputs/charts/")
     print("Reports: outputs/reports/")
-    print("Dashboard: python app.py")
+    print("Backend: uvicorn backend.app:app --reload")
+    print("Frontend: cd frontend && npm run dev")
     print("=" * 65 + "\n")
     return 0
 

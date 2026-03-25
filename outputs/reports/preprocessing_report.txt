@@ -1,0 +1,34 @@
+SEMITRACK INDIA - Preprocessing Report
+=================================================================
+
+Annual rows:        30
+Country rows:       2253
+Raw rows:           6261
+Years:              1995 - 2024
+Features added:     log_real_import, log_diff, first_diff_real, rolling3_real, lag1_real, lag2_real, china_share_squared, hhi_diff
+
+Missing value audit:
+  import_value_usd_billions: OK
+  real_value_2015usd_billions: OK
+  hs8542_import_usd: OK
+  hs3818_import_usd: OK
+  china_share_pct: OK
+  supplier_hhi: OK
+  yoy_nominal_growth_pct: OK
+  yoy_real_growth_pct: OK
+
+Pre-2018 mean real growth:   10.00%
+Post-2018 mean real growth:  34.88%
+2024 import bill:   $23.05B
+2024 China share:   45.83%
+2024 HHI:           0.2909
+1995-2024 growth (nominal):  97.1x
+
+Policy dummy variables:
+  dummy_post_2018_inflection: [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  dummy_covid_shock_2020: [2020]
+  dummy_global_chip_shortage_2021: [2021]
+  dummy_pli_scheme_launch: [2021, 2022, 2023, 2024]
+  dummy_micron_mou_2023: [2023, 2024]
+  dummy_tata_fab_groundbreaking: [2023, 2024]
+  dummy_india_semicon_mission: [2021, 2022, 2023, 2024]

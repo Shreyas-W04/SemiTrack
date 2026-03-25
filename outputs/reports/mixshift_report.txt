@@ -1,0 +1,13 @@
+SEMITRACK INDIA - Mix Shift Report
+=================================================================
+
+BAU forecast source: ARIMAX
+HS 8542 split: 99.18%
+HS 3818 split: 0.82%
+
+2025: total=$13.931B  HS 8542=$13.817B  HS 3818=$0.1139B
+2026: total=$14.156B  HS 8542=$14.040B  HS 3818=$0.1157B
+2027: total=$14.078B  HS 8542=$13.963B  HS 3818=$0.1151B
+
+Actual data loaded: 6 entries
+  2025 delta: $0.473B  (SUBSTITUTION DETECTED)
