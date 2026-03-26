@@ -1012,17 +1012,19 @@ function App() {
             </>
           ) : null}
         </main>
-
-        <ChatPanel
-          messages={messages}
-          draft={draft}
-          setDraft={setDraft}
-          onSubmit={handleChatSubmit}
-          pending={chatPending}
-          suggestions={chatSuggestions}
-          contextLabel={chatContextLabel}
-          error={chatError}
-        />
+        <aside className="chat-rail">
+          <ChatPanel
+            className="chat-panel-embedded"
+            messages={messages}
+            draft={draft}
+            setDraft={setDraft}
+            onSubmit={handleChatSubmit}
+            pending={chatPending}
+            suggestions={chatSuggestions}
+            contextLabel={chatContextLabel}
+            error={chatError}
+          />
+        </aside>
       </div>
 
       <footer className="footer">

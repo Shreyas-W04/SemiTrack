@@ -211,7 +211,8 @@ export default function ChatPanel({
   pending,
   suggestions,
   contextLabel,
-  error
+  error,
+  className = ""
 }) {
   const logRef = useRef(null);
 
@@ -233,7 +234,7 @@ export default function ChatPanel({
   };
 
   return (
-    <aside className="chat-panel">
+    <aside id="site-chat-panel" className={`chat-panel ${className}`.trim()}>
       <div className="chat-panel-top">
         <div className="chat-panel-head">
           <div>
@@ -243,8 +244,7 @@ export default function ChatPanel({
           <div className="chat-context">{contextLabel}</div>
         </div>
 
-        <p className="chat-panel-copy">Local RAG only: report text, chart notes, and processed CSVs. No internet browsing.</p>
-        <p className="chat-panel-copy chat-panel-copy-secondary">Ask what changed, why a year moved, or whether a visible drop is actually real.</p>
+        <p className="chat-panel-copy">Local RAG over chart notes, reports, and processed CSVs.</p>
 
         <div className="chat-suggestions">
           {visibleSuggestions.map((suggestion) => (
